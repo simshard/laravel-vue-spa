@@ -603,7 +603,7 @@ table {
 }
 
 .bg-black {
-  background-color: #22292f;
+  background-color: #222;
 }
 
 .bg-grey-darkest {
@@ -895,7 +895,7 @@ table {
 }
 
 .hover\:bg-black:hover {
-  background-color: #22292f;
+  background-color: #222;
 }
 
 .hover\:bg-grey-darkest:hover {
@@ -1187,7 +1187,7 @@ table {
 }
 
 .focus\:bg-black:focus {
-  background-color: #22292f;
+  background-color: #222;
 }
 
 .focus\:bg-grey-darkest:focus {
@@ -1551,7 +1551,7 @@ table {
 }
 
 .border-black {
-  border-color: #22292f;
+  border-color: #222;
 }
 
 .border-grey-darkest {
@@ -1843,7 +1843,7 @@ table {
 }
 
 .hover\:border-black:hover {
-  border-color: #22292f;
+  border-color: #222;
 }
 
 .hover\:border-grey-darkest:hover {
@@ -2135,7 +2135,7 @@ table {
 }
 
 .focus\:border-black:focus {
-  border-color: #22292f;
+  border-color: #222;
 }
 
 .focus\:border-grey-darkest:focus {
@@ -2957,7 +2957,7 @@ table {
 }
 
 .font-sans {
-  font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Open Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .font-serif {
@@ -3161,7 +3161,7 @@ table {
 }
 
 .leading-loose {
-  line-height: 2;
+  line-height: 40px;
 }
 
 .m-0 {
@@ -4890,7 +4890,7 @@ table {
 }
 
 .text-black {
-  color: #22292f;
+  color: #222;
 }
 
 .text-grey-darkest {
@@ -5182,7 +5182,7 @@ table {
 }
 
 .hover\:text-black:hover {
-  color: #22292f;
+  color: #222;
 }
 
 .hover\:text-grey-darkest:hover {
@@ -5474,7 +5474,7 @@ table {
 }
 
 .focus\:text-black:focus {
-  color: #22292f;
+  color: #222;
 }
 
 .focus\:text-grey-darkest:focus {
@@ -6186,6 +6186,10 @@ table {
  * @import "utilities/skew-transforms";
  */
 
+a {
+  text-decoration: none;
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;
@@ -6215,7 +6219,7 @@ table {
   }
 
   .sm\:bg-black {
-    background-color: #22292f;
+    background-color: #222;
   }
 
   .sm\:bg-grey-darkest {
@@ -6507,7 +6511,7 @@ table {
   }
 
   .sm\:hover\:bg-black:hover {
-    background-color: #22292f;
+    background-color: #222;
   }
 
   .sm\:hover\:bg-grey-darkest:hover {
@@ -6799,7 +6803,7 @@ table {
   }
 
   .sm\:focus\:bg-black:focus {
-    background-color: #22292f;
+    background-color: #222;
   }
 
   .sm\:focus\:bg-grey-darkest:focus {
@@ -7155,7 +7159,7 @@ table {
   }
 
   .sm\:border-black {
-    border-color: #22292f;
+    border-color: #222;
   }
 
   .sm\:border-grey-darkest {
@@ -7447,7 +7451,7 @@ table {
   }
 
   .sm\:hover\:border-black:hover {
-    border-color: #22292f;
+    border-color: #222;
   }
 
   .sm\:hover\:border-grey-darkest:hover {
@@ -7739,7 +7743,7 @@ table {
   }
 
   .sm\:focus\:border-black:focus {
-    border-color: #22292f;
+    border-color: #222;
   }
 
   .sm\:focus\:border-grey-darkest:focus {
@@ -8561,7 +8565,7 @@ table {
   }
 
   .sm\:font-sans {
-    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .sm\:font-serif {
@@ -8765,7 +8769,7 @@ table {
   }
 
   .sm\:leading-loose {
-    line-height: 2;
+    line-height: 40px;
   }
 
   .sm\:m-0 {
@@ -10478,7 +10482,7 @@ table {
   }
 
   .sm\:text-black {
-    color: #22292f;
+    color: #222;
   }
 
   .sm\:text-grey-darkest {
@@ -10770,7 +10774,7 @@ table {
   }
 
   .sm\:hover\:text-black:hover {
-    color: #22292f;
+    color: #222;
   }
 
   .sm\:hover\:text-grey-darkest:hover {
@@ -11062,7 +11066,7 @@ table {
   }
 
   .sm\:focus\:text-black:focus {
-    color: #22292f;
+    color: #222;
   }
 
   .sm\:focus\:text-grey-darkest:focus {
@@ -11789,7 +11793,7 @@ table {
   }
 
   .md\:bg-black {
-    background-color: #22292f;
+    background-color: #222;
   }
 
   .md\:bg-grey-darkest {
@@ -12081,7 +12085,7 @@ table {
   }
 
   .md\:hover\:bg-black:hover {
-    background-color: #22292f;
+    background-color: #222;
   }
 
   .md\:hover\:bg-grey-darkest:hover {
@@ -12373,7 +12377,7 @@ table {
   }
 
   .md\:focus\:bg-black:focus {
-    background-color: #22292f;
+    background-color: #222;
   }
 
   .md\:focus\:bg-grey-darkest:focus {
@@ -12729,7 +12733,7 @@ table {
   }
 
   .md\:border-black {
-    border-color: #22292f;
+    border-color: #222;
   }
 
   .md\:border-grey-darkest {
@@ -13021,7 +13025,7 @@ table {
   }
 
   .md\:hover\:border-black:hover {
-    border-color: #22292f;
+    border-color: #222;
   }
 
   .md\:hover\:border-grey-darkest:hover {
@@ -13313,7 +13317,7 @@ table {
   }
 
   .md\:focus\:border-black:focus {
-    border-color: #22292f;
+    border-color: #222;
   }
 
   .md\:focus\:border-grey-darkest:focus {
@@ -14135,7 +14139,7 @@ table {
   }
 
   .md\:font-sans {
-    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .md\:font-serif {
@@ -14339,7 +14343,7 @@ table {
   }
 
   .md\:leading-loose {
-    line-height: 2;
+    line-height: 40px;
   }
 
   .md\:m-0 {
@@ -16052,7 +16056,7 @@ table {
   }
 
   .md\:text-black {
-    color: #22292f;
+    color: #222;
   }
 
   .md\:text-grey-darkest {
@@ -16344,7 +16348,7 @@ table {
   }
 
   .md\:hover\:text-black:hover {
-    color: #22292f;
+    color: #222;
   }
 
   .md\:hover\:text-grey-darkest:hover {
@@ -16636,7 +16640,7 @@ table {
   }
 
   .md\:focus\:text-black:focus {
-    color: #22292f;
+    color: #222;
   }
 
   .md\:focus\:text-grey-darkest:focus {
@@ -17363,7 +17367,7 @@ table {
   }
 
   .lg\:bg-black {
-    background-color: #22292f;
+    background-color: #222;
   }
 
   .lg\:bg-grey-darkest {
@@ -17655,7 +17659,7 @@ table {
   }
 
   .lg\:hover\:bg-black:hover {
-    background-color: #22292f;
+    background-color: #222;
   }
 
   .lg\:hover\:bg-grey-darkest:hover {
@@ -17947,7 +17951,7 @@ table {
   }
 
   .lg\:focus\:bg-black:focus {
-    background-color: #22292f;
+    background-color: #222;
   }
 
   .lg\:focus\:bg-grey-darkest:focus {
@@ -18303,7 +18307,7 @@ table {
   }
 
   .lg\:border-black {
-    border-color: #22292f;
+    border-color: #222;
   }
 
   .lg\:border-grey-darkest {
@@ -18595,7 +18599,7 @@ table {
   }
 
   .lg\:hover\:border-black:hover {
-    border-color: #22292f;
+    border-color: #222;
   }
 
   .lg\:hover\:border-grey-darkest:hover {
@@ -18887,7 +18891,7 @@ table {
   }
 
   .lg\:focus\:border-black:focus {
-    border-color: #22292f;
+    border-color: #222;
   }
 
   .lg\:focus\:border-grey-darkest:focus {
@@ -19709,7 +19713,7 @@ table {
   }
 
   .lg\:font-sans {
-    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .lg\:font-serif {
@@ -19913,7 +19917,7 @@ table {
   }
 
   .lg\:leading-loose {
-    line-height: 2;
+    line-height: 40px;
   }
 
   .lg\:m-0 {
@@ -21626,7 +21630,7 @@ table {
   }
 
   .lg\:text-black {
-    color: #22292f;
+    color: #222;
   }
 
   .lg\:text-grey-darkest {
@@ -21918,7 +21922,7 @@ table {
   }
 
   .lg\:hover\:text-black:hover {
-    color: #22292f;
+    color: #222;
   }
 
   .lg\:hover\:text-grey-darkest:hover {
@@ -22210,7 +22214,7 @@ table {
   }
 
   .lg\:focus\:text-black:focus {
-    color: #22292f;
+    color: #222;
   }
 
   .lg\:focus\:text-grey-darkest:focus {
@@ -22937,7 +22941,7 @@ table {
   }
 
   .xl\:bg-black {
-    background-color: #22292f;
+    background-color: #222;
   }
 
   .xl\:bg-grey-darkest {
@@ -23229,7 +23233,7 @@ table {
   }
 
   .xl\:hover\:bg-black:hover {
-    background-color: #22292f;
+    background-color: #222;
   }
 
   .xl\:hover\:bg-grey-darkest:hover {
@@ -23521,7 +23525,7 @@ table {
   }
 
   .xl\:focus\:bg-black:focus {
-    background-color: #22292f;
+    background-color: #222;
   }
 
   .xl\:focus\:bg-grey-darkest:focus {
@@ -23877,7 +23881,7 @@ table {
   }
 
   .xl\:border-black {
-    border-color: #22292f;
+    border-color: #222;
   }
 
   .xl\:border-grey-darkest {
@@ -24169,7 +24173,7 @@ table {
   }
 
   .xl\:hover\:border-black:hover {
-    border-color: #22292f;
+    border-color: #222;
   }
 
   .xl\:hover\:border-grey-darkest:hover {
@@ -24461,7 +24465,7 @@ table {
   }
 
   .xl\:focus\:border-black:focus {
-    border-color: #22292f;
+    border-color: #222;
   }
 
   .xl\:focus\:border-grey-darkest:focus {
@@ -25283,7 +25287,7 @@ table {
   }
 
   .xl\:font-sans {
-    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .xl\:font-serif {
@@ -25487,7 +25491,7 @@ table {
   }
 
   .xl\:leading-loose {
-    line-height: 2;
+    line-height: 40px;
   }
 
   .xl\:m-0 {
@@ -27200,7 +27204,7 @@ table {
   }
 
   .xl\:text-black {
-    color: #22292f;
+    color: #222;
   }
 
   .xl\:text-grey-darkest {
@@ -27492,7 +27496,7 @@ table {
   }
 
   .xl\:hover\:text-black:hover {
-    color: #22292f;
+    color: #222;
   }
 
   .xl\:hover\:text-grey-darkest:hover {
@@ -27784,7 +27788,7 @@ table {
   }
 
   .xl\:focus\:text-black:focus {
-    color: #22292f;
+    color: #222;
   }
 
   .xl\:focus\:text-grey-darkest:focus {

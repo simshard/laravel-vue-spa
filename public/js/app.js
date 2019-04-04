@@ -99,6 +99,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -603,7 +605,11 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("p", [_vm._v("About")])
+  return _c(
+    "h1",
+    { staticClass: "font-normal text-3xl text-grey-darkest leading-none" },
+    [_vm._v("\nSymbol\n")]
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -627,7 +633,11 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("p", [_vm._v("Home")])
+  return _c(
+    "h1",
+    { staticClass: "font-normal text-3xl text-grey-darkest leading-none" },
+    [_vm._v("Logo")]
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -15576,8 +15586,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\sim\code\assets\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\sim\code\assets\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\sim\code\laravel-vue-spa\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\sim\code\laravel-vue-spa\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

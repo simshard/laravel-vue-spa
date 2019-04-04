@@ -5,18 +5,63 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>simple SPA</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="/css/app.css">
 </head>
 
-<body>
+<body class="font-sans">
+    <div id="app">
+        <div class="container mx-auto">
+            <header class="py-6 mb-8">
+                <h1>
+                    <img alt="Laracasts" src="/images/logo.svg">
+                </h1>
+            </header>
+            <main class="flex">
+                <aside class="w-1/5">
+                    <section class="mb-8">
+                      <h5 class="uppercase font-bold mb-4">Branding</h5>
+                      <ul class="list-reset">
+                          <li class="text-sm leading-loose">
+                              <router-link class="text-black" to="/">Logo</router-link>
+                          </li>
+                          <li class="text-sm leading-loose">
+                              <router-link class="text-black" to="/about">Symbol</router-link>
+                          </li>
+                          <li class="text-sm leading-loose">
+                              <router-link class="text-black" to="/">Colours</router-link>
+                          </li>
+                          <li class="text-sm leading-loose">
+                              <router-link class="text-black" to="/about">Typography</router-link>
+                          </li>
+                      </ul>
+                    </section>
+                    <section class="mb-8">
+                      <h5 class="uppercase font-bold mb-4">Stuff</h5>
+                      <ul class="list-reset">
+                          <li class="text-sm leading-loose">
+                              <router-link class="text-black" to="/">Mascot</router-link>
+                          </li>
+                          <li class="text-sm leading-loose">
+                              <router-link class="text-black" to="/about">Illustrations</router-link>
+                          </li>
+                          <li class="text-sm leading-loose">
+                              <router-link class="text-black" to="/">Loaders and Animations</router-link>
+                          </li>
+                          <li class="text-sm leading-loose">
+                              <router-link class="text-black" to="/about">Wallpapers</router-link>
+                          </li>
+                      </ul>
+                    </section>
+                </aside>
 
-        <div id="app">
-          <router-view></router-view>
-          <hr>
-          <router-link to="/">Home</router-link>
-          <router-link to="/about">About</router-link>
+                <div class="primary flex-1">
+                    <router-view></router-view>
+                </div>
+            </main>
         </div>
-        <script type="text/javascript" src="/js/app.js"></script>
+    </div>
+    <script type="text/javascript" src="/js/app.js"></script>
 </body>
 
 </html>
