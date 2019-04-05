@@ -6,12 +6,17 @@ import Mascot from './components/Mascot.vue';
 import Illustrations from './components/Illustrations.vue';
 import Loaders from './components/Loaders.vue';
 import Wallpapers from './components/Wallpapers.vue';
+import NotFound from './components/NotFound.vue';
 
 
 export default{
   mode:'history',
   linkActiveClass: 'font-bold',
   routes:[
+    {
+        path:'*',
+        component:NotFound
+    },
     {
       path:'/',
       component:Logo
